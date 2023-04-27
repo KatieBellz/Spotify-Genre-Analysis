@@ -42,7 +42,7 @@ To run the project, open the Jupyter Notebook file in your preferred environment
 
 ## SQL Code
 
-We did not use any SQL code for this project.
+We used SQL Code to to extract relevant data
 
 ## Python Code
 
