@@ -1,58 +1,36 @@
-# Project Title
-Spotify Genre Analysis
-
-## Project Description
+# Spotify Genre Analysis
 
 This project analyzes the most popular genres on Spotify and identifies trends in user behavior. By analyzing data on top tracks, user preferences, and audio features, we aim to provide insights into which genres are most popular and how users interact with different types of music.
 
+## Features
+
+- Developed a machine learning model to analyze and categorize Spotify music tracks by genre, utilizing Python libraries such as Pandas, scikit-learn, and NumPy.
+- Processed and cleaned large datasets to extract key features like tempo, energy, and acousticness, enabling accurate genre classification.
+- Integrated Spotify’s Web API to fetch data and analyze trends in user listening habits.
+- Visualized data insights using Matplotlib and Seaborn, creating interactive charts to display genre popularity and track characteristics.
+- Designed a comprehensive pipeline for data preprocessing, feature extraction, model training, and evaluation, achieving high classification accuracy.
+
 ## Technologies Used
 
-* Python
-* SQL
-* Jupyter Notebook
-* Spotify Web API
-* Pandas
-* Matplotlib
-* Seaborn
+- Python
+- SQL
+- Jupyter Notebook
+- Spotify Web API
+- Pandas
+- Matplotlib
+- Seaborn
 
-## Installation Instructions
+## Installation
 
-To run this project, you will need to install Python 3, Jupyter Notebook, and the following libraries:
+1. Install required dependencies:
 
-* Pandas
-* Matplotlib
-* Seaborn
-* Spotipy
+pip install -r requirements.txt
 
-## You can install these libraries using pip:
+## Usage
 
+1. Run the Jupyter Notebook to see data analysis and visualizations.
+2. Use the provided scripts to fetch new data from Spotify’s Web API and process it for further analysis.
 
-pip install pandas matplotlib seaborn spotipy
+## Contributing
 
-You will also need to set up a Spotify developer account and obtain an API key, which you can do at https://developer.spotify.com/dashboard/applications.
-
-## Usage Instructions
-
-To run the project, open the Jupyter Notebook file in your preferred environment and run each cell sequentially. The notebook contains detailed instructions for each step of the analysis.
-
-## File Contents
-
-* Spotify Genre Analysis.ipynb: Jupyter Notebook containing the analysis code.
-* README.md: This file.
-
-## SQL Code
-
-We used SQL Code to to extract relevant data
-
-## Python Code
-
-The Python code for this project is contained in the Spotify Genre Analysis.ipynb file.
-
-## Project Status
-
-This project is complete.
-
-# Contact Information
-* Kathy Rodriguez
-* 1mrs.python@gmail.com
-* LinkedIn: https://www.linkedin.com/in/kathyr/
+Feel free to fork this project, create a feature branch, and submit a pull request if you would like to contribute. Your contributions are always welcome!
